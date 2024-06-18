@@ -1,4 +1,4 @@
-sap.ui.define(["sap/ui/core/mvc/ComponentContainer"], function (ComponentContainer) {
+sap.ui.define(["sap/ui/core/ComponentContainer"], function (ComponentContainer) {
     "use strict";
 
     var oContainer = new ComponentContainer({
@@ -11,4 +11,5 @@ sap.ui.define(["sap/ui/core/mvc/ComponentContainer"], function (ComponentContain
         }
     });
     oContainer.placeAt("content");
+
 });
